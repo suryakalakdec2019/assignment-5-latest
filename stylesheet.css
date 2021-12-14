@@ -15,12 +15,8 @@ body{
 }
 .container{
     width:85%;
-    
-    margin-left: auto;
-    margin-right: auto;
+   margin: 30px auto;
     background-color: gray;
-	margin-top: 30px;
-    margin-bottom: 30px;
 	background-color: rgb(235, 210, 210);
 } 
 
@@ -30,12 +26,11 @@ ul.menu{
     padding: 30px;
    width:80%;
    margin-top: 20px;
-   
-margin: auto;
+   margin: auto;
 }
 .menu > li {
     display: inline-block;
-    width: 10%;
+    padding:30px;
     text-align: center;
     	font-size: 30px;
     
@@ -57,7 +52,7 @@ li a:hover{
 .img1{
 	width:80%;
 	margin: auto;
-	margin-left: 10%;
+	display: block;
 }
 .radio-button{
 	text-align: center;
@@ -141,11 +136,10 @@ li a:hover{
 		}
 		
 		.card4{
-			width:500px;
-			
+			width:42.5%;
+			padding-right: 100px;
 			margin-left: 20%;
-		
-		
+     		float: left;
 		
 		}
 		.card-4A{
@@ -167,11 +161,10 @@ li a:hover{
 
 		}
 		.card-5{
-			width:500px;
-			float: left;
-
+			width:42.5%;
+			display:flex;
 			margin-left: 60%;
-			
+			padding:0 20px;
 		
 		
 		}
